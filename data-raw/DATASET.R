@@ -24,7 +24,7 @@ usethis::use_data(
   internal = TRUE,
   overwrite = TRUE,
   compress = "xz",# one of "gzip", "bzip2", or "xz"
-  version = 2
+  version = 3
 )
 
 tools::checkRdaFiles("R")
