@@ -4,10 +4,18 @@
 \name{fastrmodels-package}
 \alias{fastrmodels}
 \alias{fastrmodels-package}
-\title{fastrmodels: Models For The nflfastR Package}
+\title{fastrmodels: Models for the nflfastR Package}
 \description{
 A data package that hosts all models for the
     nflfastR package.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/mrcaseb/fastrmodels}
+  \item Report bugs at \url{https://github.com/mrcaseb/fastrmodels/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: Sebastian Carl \email{mrcaseb@gmail.com}

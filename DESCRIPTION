@@ -1,5 +1,5 @@
 Package: fastrmodels
-Title: Models For The nflfastR Package
+Title: Models for the nflfastR Package
 Version: 1.0.0
 Authors@R: 
     c(person(given = "Sebastian",
