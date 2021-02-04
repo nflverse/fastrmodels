@@ -4,15 +4,17 @@ Version: 1.0.0
 Authors@R: 
     c(person(given = "Sebastian",
              family = "Carl",
-             role = "aut",
+             role = c("cre", "aut"),
              email = "mrcaseb@gmail.com"),
       person(given = "Ben",
              family = "Baldwin",
-             role = c("cre", "aut"),
+             role = "aut",
              email = "bbaldwin206@gmail.com"))
 Description: A data package that hosts all models for the
-    nflfastR package
+    nflfastR package.
 License: MIT + file LICENSE
+Depends: 
+    R (>= 3.50)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
