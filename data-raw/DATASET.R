@@ -21,10 +21,11 @@ usethis::use_data(
   cp_model,
   xyac_model,
   xpass_model,
-  internal = TRUE,
+  internal = FALSE,
   overwrite = TRUE,
   compress = "xz",# one of "gzip", "bzip2", or "xz"
   version = 3
 )
 
-tools::checkRdaFiles("R")
+tools::checkRdaFiles("data")
+
