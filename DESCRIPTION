@@ -1,5 +1,5 @@
 Package: fastrmodels
-Title: Models for the nflfastR Package
+Title: Models for the 'nflfastR' Package
 Version: 1.0.0
 Authors@R: 
     c(person(given = "Sebastian",
@@ -11,7 +11,7 @@ Authors@R:
              role = "aut",
              email = "bbaldwin206@gmail.com"))
 Description: A data package that hosts all models for the
-    nflfastR package.
+    'nflfastR' package.
 License: MIT + file LICENSE
 URL: https://github.com/mrcaseb/fastrmodels
 BugReports: https://github.com/mrcaseb/fastrmodels/issues

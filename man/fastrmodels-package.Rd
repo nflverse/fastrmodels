@@ -4,10 +4,10 @@
 \name{fastrmodels-package}
 \alias{fastrmodels}
 \alias{fastrmodels-package}
-\title{fastrmodels: Models for the nflfastR Package}
+\title{fastrmodels: Models for the 'nflfastR' Package}
 \description{
 A data package that hosts all models for the
-    nflfastR package.
+    'nflfastR' package.
 }
 \seealso{
 Useful links:
