@@ -6,6 +6,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/mrcaseb/fastrmodels/workflows/R-CMD-check/badge.svg)](https://github.com/mrcaseb/fastrmodels/actions)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/fastrmodels)](https://CRAN.R-project.org/package=fastrmodels)
 <!-- badges: end -->
 
 The R package fastrmodels is a lower level data-only package that
