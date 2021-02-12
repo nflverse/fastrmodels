@@ -1,3 +1,18 @@
+## Reason for Submission
+
+This is a re-submission to fix a WARNING in the CRAN Package Check Results for
+the flavor "r-devel-linux-x86_64-debian-gcc". 
+
+Explanation:
+Some of the data in this package are of class "xgb.Booster". The machine that
+runs the R CMD Check has to have installed the package "xgboost" to correctly
+identify the class and will otherwise raise a warning. For that reason xgboost
+was listed in "Suggests" but it appears that this wasn't enough for the above
+mentioned flavor. Therefore xgboost is now listed in "Imports" which should
+force the machine to install xgboost prior to the R CMD Check.
+This was tested in the previous version on R-hub but it looks like their machines
+didn't raise the warning for some reason.
+
 ## Test environments
 
 * local R installation, R 4.0.3
@@ -24,9 +39,8 @@
 
 0 errors | 0 warnings | 2 notes
 
-* New submission
-
-* installed size is 19.7Mb (not a NOTE on win-builder.r-project.org.)
+* Size of tarball: 16458926 bytes; Days since last update: 1
+* installed size is 19.7Mb
 
 The CRAN Repository Policy (Revision 4336) says about package size
 
