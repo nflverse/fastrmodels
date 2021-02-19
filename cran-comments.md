@@ -48,6 +48,13 @@ didn't raise the warning for some reason.
 * Windows Server 2008 R2 SP1, R-release, 32/64 bit 
 * win-builder (devel)
 
+## revdepcheck results
+
+We checked 1 reverse dependencies, comparing R CMD check results across CRAN and dev versions of this package.
+
+ * We saw 0 new problems
+ * We failed to check 0 packages
+
 ## R CMD check results
 
 0 errors | 0 warnings | 1 note
