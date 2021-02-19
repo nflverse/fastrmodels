@@ -1,7 +1,20 @@
 ## Reason for Submission
 
-This is a re-submission to fix a WARNING in the CRAN Package Check Results for
-the flavor "r-devel-linux-x86_64-debian-gcc". 
+This is a re-submission to fix two things:
+
+* reduce size of `data/Rdata.rdb` by using the `LazyDataCompression` field in the
+`DESCRIPTION` file with the same value the .rda files were compressed ('xz'). We
+haven been requested by Prof. Ripley to fix this.
+
+* Avoid a NOTE on the flavors `r-devel-linux-x86_64-fedora-clang`,`r-devel-linux-x86_64-fedora-gcc`, 
+`r-patched-solaris-x86`, `r-release-macos-x86_64` and `r-oldrel-macos-x86_64` caused 
+by the fact that the package xgboost is listed in "Imports" but not in the NAMESPACE
+(see the below explanation of the last re-submission why xgboost is listed in 
+"Imports").
+
+## Last Re-Submission
+
+This is a re-submission to fix a WARNING in the CRAN Package Check Results for the flavor "r-devel-linux-x86_64-debian-gcc".
 
 Explanation:
 Some of the data in this package are of class "xgb.Booster". The machine that
@@ -37,10 +50,11 @@ didn't raise the warning for some reason.
 
 ## R CMD check results
 
-0 errors | 0 warnings | 2 notes
+0 errors | 0 warnings | 1 note
 
-* Size of tarball: 16458926 bytes; Days since last update: 1
-* installed size is 19.7Mb
+* installed size is 15.8Mb
+    sub-directories of 1Mb or more:
+      data  15.7Mb
 
 The CRAN Repository Policy (Revision 4336) says about package size
 
