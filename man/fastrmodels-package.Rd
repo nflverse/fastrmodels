@@ -6,8 +6,7 @@
 \alias{fastrmodels-package}
 \title{fastrmodels: Models for the 'nflfastR' Package}
 \description{
-A data package that hosts all models for the
-    'nflfastR' package.
+A data package that hosts all models for the 'nflfastR' package.
 }
 \seealso{
 Useful links:
