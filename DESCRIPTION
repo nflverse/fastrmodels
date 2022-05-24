@@ -1,26 +1,21 @@
 Package: fastrmodels
 Title: Models for the 'nflfastR' Package
-Version: 1.0.2
-Authors@R: 
-    c(person(given = "Sebastian",
-             family = "Carl",
-             role = c("cre", "aut"),
-             email = "mrcaseb@gmail.com"),
-      person(given = "Ben",
-             family = "Baldwin",
-             role = "aut",
-             email = "bbaldwin206@gmail.com"))
-Description: A data package that hosts all models for the
-    'nflfastR' package.
+Version: 1.0.2.9000
+Authors@R: c(
+    person("Sebastian", "Carl", , "mrcaseb@gmail.com", role = c("cre", "aut")),
+    person("Ben", "Baldwin", , "bbaldwin206@gmail.com", role = "aut")
+  )
+Description: A data package that hosts all models for the 'nflfastR'
+    package.
 License: MIT + file LICENSE
 URL: https://github.com/mrcaseb/fastrmodels
 BugReports: https://github.com/mrcaseb/fastrmodels/issues
 Depends: 
-    R (>= 3.5.0)
+    R (>= 3.6.0)
 Imports: 
     xgboost (>= 1.1)
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: xz
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.0

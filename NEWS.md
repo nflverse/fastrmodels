@@ -1,3 +1,7 @@
+# fastrmodels 1.0.3
+
+* All xgboost models have been re-exported for new serialization formats in xgboost 1.0
+
 # fastrmodels 1.0.2
 
 * Use more efficient compression method for lazy database
