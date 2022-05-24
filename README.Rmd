@@ -24,11 +24,25 @@ The R package fastrmodels is a lower level data-only package that includes all m
 
 ## Installation
 
-You can install the released version of fastrmodels from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of fastrmodels from [CRAN](https://CRAN.R-project.org/package=fastrmodels) with:
 
 ``` r
 install.packages("fastrmodels")
 ```
+
+To get a bug fix or to use a feature from the development version, you can install the development version of nflplotR either from [GitHub](https://github.com/nflverse/fastrmodels/) with:
+
+``` r
+if (!require("remotes")) install.packages("remotes")
+remotes::install_github("nflverse/fastrmodels")
+```
+
+or prebuilt from the [development repo](https://nflverse.r-universe.dev) with:
+
+```{r eval = FALSE}
+install.packages("fastrmodels", repos = "https://nflverse.r-universe.dev")
+```
+
 
 ## About the Models
 

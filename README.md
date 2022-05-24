@@ -18,10 +18,26 @@ take up significant file size, they have been swapped out of the
 ## Installation
 
 You can install the released version of fastrmodels from
-[CRAN](https://CRAN.R-project.org) with:
+[CRAN](https://CRAN.R-project.org/package=fastrmodels) with:
 
 ``` r
 install.packages("fastrmodels")
+```
+
+To get a bug fix or to use a feature from the development version, you
+can install the development version of nflplotR either from
+[GitHub](https://github.com/nflverse/fastrmodels/) with:
+
+``` r
+if (!require("remotes")) install.packages("remotes")
+remotes::install_github("nflverse/fastrmodels")
+```
+
+or prebuilt from the [development repo](https://nflverse.r-universe.dev)
+with:
+
+``` r
+install.packages("fastrmodels", repos = "https://nflverse.r-universe.dev")
 ```
 
 ## About the Models
