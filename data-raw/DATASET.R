@@ -11,6 +11,10 @@ xpass_model <- fastrmodels::xpass_model
 # xgboost >= 1.6.0 warned the user because of old serialization formats.
 # So we save the models in the suggested serialized json format, read them
 # back in and save the in the package again.
+#
+# (UPDATE 2023-07-28: had to do this again with xgboost 1.7.5.1
+# I am concerned we will have to do this every year.
+# See you all in 2024 with xgboost 1.8.x)
 xgboost::xgb.save(ep_model, "ep_model.ubj")
 xgboost::xgb.save(wp_model, "wp_model.ubj")
 xgboost::xgb.save(wp_model_spread, "wp_model_spread.ubj")
