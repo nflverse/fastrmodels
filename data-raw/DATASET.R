@@ -16,6 +16,7 @@ xpass_model <- fastrmodels::xpass_model
 # UPDATE 2024-01-24: had to do this again with xgboost 1.7.6.1
 # I am concerned we will have to do this every year, or even multiple times per year smh.
 # See you all in 2024 with xgboost 1.8.x
+# UPDATE 2024-06-05: Models re-exported with xgboost 1.7.7.1
 xgboost::xgb.save(ep_model, "ep_model.ubj")
 xgboost::xgb.save(wp_model, "wp_model.ubj")
 xgboost::xgb.save(wp_model_spread, "wp_model_spread.ubj")
@@ -23,13 +24,13 @@ xgboost::xgb.save(cp_model, "cp_model.ubj")
 xgboost::xgb.save(xyac_model, "xyac_model.ubj")
 xgboost::xgb.save(xpass_model, "xpass_model.ubj")
 
-ep_model <- xgboost::xgb.load("ep_model.ubj") |> xgboost::xgb.Booster.complete()
-wp_model <- xgboost::xgb.load("wp_model.ubj") |> xgboost::xgb.Booster.complete()
-wp_model_spread <- xgboost::xgb.load("wp_model_spread.ubj") |> xgboost::xgb.Booster.complete()
+ep_model <- xgboost::xgb.load("data-raw/ep_model.ubj") |> xgboost::xgb.Booster.complete()
+wp_model <- xgboost::xgb.load("data-raw/wp_model.ubj") |> xgboost::xgb.Booster.complete()
+wp_model_spread <- xgboost::xgb.load("data-raw/wp_model_spread.ubj") |> xgboost::xgb.Booster.complete()
 fg_model <- fastrmodels::fg_model
-cp_model <- xgboost::xgb.load("cp_model.ubj") |> xgboost::xgb.Booster.complete()
-xyac_model <- xgboost::xgb.load("xyac_model.ubj") |> xgboost::xgb.Booster.complete()
-xpass_model <- xgboost::xgb.load("xpass_model.ubj") |> xgboost::xgb.Booster.complete()
+cp_model <- xgboost::xgb.load("data-raw/cp_model.ubj") |> xgboost::xgb.Booster.complete()
+xyac_model <- xgboost::xgb.load("data-raw/xyac_model.ubj") |> xgboost::xgb.Booster.complete()
+xpass_model <- xgboost::xgb.load("data-raw/xpass_model.ubj") |> xgboost::xgb.Booster.complete()
 
 # save models to use in package
 usethis::use_data(
