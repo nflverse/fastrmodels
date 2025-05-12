@@ -1,6 +1,6 @@
-# fastrmodels (development version)
+# fastrmodels 2.0.0
 
-* All xgboost models have been re-exported for new serialization formats in xgboost 1.0
+* All xgboost models have been saved as raw vectors in order to be compatible with all future xgboost versions.
 
 # fastrmodels 1.0.2
 
