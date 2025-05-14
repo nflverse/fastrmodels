@@ -1,5 +1,8 @@
 my_rhub_check <- function() {
-  rhub::rhub_check(platforms = rhub_check_platforms())
+  message("Run the following code")
+  message(
+    "rhub::rhub_check(platforms = fastrmodels:::rhub_check_platforms())"
+  )
 }
 
 rhub_check_platforms <- function(){
