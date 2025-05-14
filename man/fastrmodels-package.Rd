@@ -11,8 +11,8 @@ A data package that hosts all models for the 'nflfastR' package.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/mrcaseb/fastrmodels}
-  \item Report bugs at \url{https://github.com/mrcaseb/fastrmodels/issues}
+  \item \url{https://github.com/nflverse/fastrmodels}
+  \item Report bugs at \url{https://github.com/nflverse/fastrmodels/issues}
 }
 
 }

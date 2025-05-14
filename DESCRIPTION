@@ -8,8 +8,8 @@ Authors@R: c(
 Description: A data package that hosts all models for the 'nflfastR'
     package.
 License: MIT + file LICENSE
-URL: https://github.com/mrcaseb/fastrmodels
-BugReports: https://github.com/mrcaseb/fastrmodels/issues
+URL: https://github.com/nflverse/fastrmodels
+BugReports: https://github.com/nflverse/fastrmodels/issues
 Depends: 
     R (>= 4.1.0)
 Imports: 
