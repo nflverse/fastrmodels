@@ -1,13 +1,13 @@
 #' nflfastR Completion Probability Model
 #'
-#' @format A xgb.Booster
+#' @format A raw vector representation of a XGBoost model
 #' @source See \url{https://www.opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/}
 #' for the code to build the model.
 "cp_model"
 
 #' nflfastR Expected Points Model
 #'
-#' @format A xgb.Booster
+#' @format A raw vector representation of a XGBoost model
 #' @source See \url{https://www.opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/}
 #' for the code to build the model.
 "ep_model"
@@ -21,28 +21,28 @@
 
 #' nflfastR Win Probability Model
 #'
-#' @format A xgb.Booster
+#' @format A raw vector representation of a XGBoost model
 #' @source See \url{https://www.opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/}
 #' for the code to build the model.
 "wp_model"
 
 #' nflfastR Win Probability Model (including Spread)
 #'
-#' @format A xgb.Booster
+#' @format A raw vector representation of a XGBoost model
 #' @source See \url{https://www.opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/}
 #' for the code to build the model.
 "wp_model_spread"
 
 #' nflfastR Expected Pass Model
 #'
-#' @format A xgb.Booster
+#' @format A raw vector representation of a XGBoost model
 #' @source See \url{https://www.opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/}
 #' for the code to build the model.
 "xpass_model"
 
 #' nflfastR Expected Yards after Catch Model
 #'
-#' @format A xgb.Booster
+#' @format A raw vector representation of a XGBoost model
 #' @source See \url{https://www.opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/}
 #' for the code to build the model.
 "xyac_model"
