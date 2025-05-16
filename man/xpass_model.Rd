@@ -5,10 +5,10 @@
 \alias{xpass_model}
 \title{nflfastR Expected Pass Model}
 \format{
-A xgb.Booster
+A raw vector representation of a XGBoost model
 }
 \source{
-See \url{https://www.opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/}
+See \url{https://opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/}
 for the code to build the model.
 }
 \usage{

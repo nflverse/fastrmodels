@@ -8,7 +8,7 @@
 A generalized additive model (GAM)
 }
 \source{
-See \url{https://www.opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/}
+See \url{https://opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/}
 for the code to build the model.
 }
 \usage{

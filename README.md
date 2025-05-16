@@ -10,7 +10,7 @@ status](https://img.shields.io/cran/v/fastrmodels?style=flat-square&logo=R&label
 [![CRAN
 downloads](http://cranlogs.r-pkg.org/badges/grand-total/fastrmodels)](https://CRAN.R-project.org/package=fastrmodels)
 [![Dev
-status](https://img.shields.io/github/r-package/v/nflverse/fastrmodels/master?label=dev%20version&style=flat-square&logo=github)](https://fastrmodels.nflverse.com)
+status](https://img.shields.io/github/r-package/v/nflverse/fastrmodels/master?label=dev%20version&style=flat-square&logo=github)](https://github.com/nflverse/fastrmodels)
 [![R build
 status](https://img.shields.io/github/actions/workflow/status/nflverse/fastrmodels/R-CMD-check.yaml?label=R%20check&style=flat-square&logo=github)](https://github.com/nflverse/fastrmodels/actions)
 [![nflverse
@@ -62,4 +62,4 @@ This package hosts the following models:
 
 The models are open source and detailed descriptions can be found on
 [Open Source
-Football](https://www.opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/).
+Football](https://opensourcefootball.com/posts/2020-09-28-nflfastr-ep-wp-and-cp-models/).
