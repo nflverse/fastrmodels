@@ -1,6 +1,6 @@
 Package: fastrmodels
 Title: Models for the 'nflfastR' Package
-Version: 2.0.0
+Version: 2.1.0
 Authors@R: c(
     person("Sebastian", "Carl", , "mrcaseb@gmail.com", role = c("cre", "aut")),
     person("Ben", "Baldwin", , "bbaldwin206@gmail.com", role = "aut")
@@ -10,10 +10,10 @@ Description: A data package that hosts all models for the 'nflfastR'
 License: MIT + file LICENSE
 URL: https://github.com/nflverse/fastrmodels
 BugReports: https://github.com/nflverse/fastrmodels/issues
-Depends: 
+Depends:
     R (>= 4.1.0)
-Imports: 
-    xgboost (>= 1.1)
+Imports:
+    xgboost (>= 3.0.0)
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: xz
