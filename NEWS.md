@@ -1,3 +1,7 @@
+# fastrmodels (development version)
+
+* Re-saved xgboost models again because xgboost v3 expected a different raw format.
+
 # fastrmodels 2.0.0
 
 * All xgboost models have been saved as raw vectors in order to be compatible with all future xgboost versions.
