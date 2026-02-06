@@ -23,7 +23,7 @@ knitr::opts_chunk$set(
 [![nflverse support](https://img.shields.io/discord/789805604076126219?color=7289da&label=nflverse%20support&logo=discord&logoColor=fff&style=flat-square)](https://discord.com/invite/5Er2FBnnQa)
 <!-- badges: end -->
 
-The R package fastrmodels is a lower level data-only package that includes all models required by the nflfastR package. Since the models take up significant file size, they have been swapped out of the [nflfastR package](https://www.nflfastr.com/).
+The R package fastrmodels is a lower level data-only package that includes all models required by the nflfastR package. Since the models take up significant file size, they have been swapped out of the [nflfastR package](https://nflfastr.com/).
 
 ## Installation
 
