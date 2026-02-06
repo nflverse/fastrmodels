@@ -1,4 +1,4 @@
-# fastrmodels (development version)
+# fastrmodels 2.1.0
 
 * Re-saved xgboost models again because xgboost v3 expected a different raw format.
 
